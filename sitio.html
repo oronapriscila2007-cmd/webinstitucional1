@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colegio San Isidro — Institucional</title>
+  <meta name="description" content="Colegio San Isidro - Orientación Informática. Historia, contacto, novedades y promoción 2025.">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="logo.jpg" width="1000px" height="1000px" alt="Logo Colegio San Isidro" class="logo">
+        <div>
+          <h1>Colegio San Isidro</h1>
+          <p class="tagline">Orientación Informática — Formación integral</p>
+        </div>
+      </div>
+
+
+      <nav class="main-nav" aria-label="Menú principal">
+        <button id="btn-menu" class="menu-toggle" aria-expanded="false">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#promo">Promoción 2025</a></li>
+          <li><a href="#unidad">Unidad Académica</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Educamos para el futuro digital</h2>
+          <p>En el Colegio San Isidro formamos estudiantes críticos, creativos y preparados para la era tecnológica.</p>
+          <p class="cta-row">
+            <a class="btn" href="#promo">Conocé la Promo 2025</a>
+            <a class="btn ghost" href="#contacto">Contactanos</a>
+          </p>
+        </div>
+        <div class="hero-media">
+          <img src="cole.jpg" alt="Estudiantes trabajando">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="historia" class="section">
+      <div class="container">
+        <h3>Historia</h3>
+        <p></p>
+
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>2013 — inaguracion del jardin</h4>
+            
+          </article>
+          <article class="timeline-item">
+            <h4>2014 — Inaguracion del primario</h4>
+           
+          </article>
+          <article class="timeline-item">
+            <h4>2019 — Inaguracion del secundario</h4>
+           
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="promo" class="section promo">
+      <div class="container">
+        <h3>Promoción 2025</h3>
+        <p>Felicitaciones a la Promoción 2025. Compartimos logros, proyectos y actividades destacadas de los estudiantes.</p>
+
+
+        <div class="cards">
+          <article class="card">
+            <img src="promo.jpg" alt="Foto promo 1">
+            <h4>Convivencias</h4>
+           
+          </article>
+          <article class="card">
+            <img src="conviven.jpg" width="650"  height="450" alt="Foto promo 2">
+            <h4>Encuentros deportivos</h4>
+            
+          </article>
+          <article class="card">
+            <img src="deporte.jpg" width="700"  height="450" alt="Foto promo 3">
+            <h4>Feria de ciencias</h4>
+           
+            <img src="feria.jpg"  width="500"  height="450" alt="feria">
+          </article>
+        </div>
+
+
+        <div class="promo-cta">
+          <a class="btn" href="#contacto">Solicitar información sobre la promo</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="unidad" class="section">
+      <div class="container">
+        <h3>Oferta Académica</h3>
+        <p>Nuestro plan de estudios incluye: Programación, Redes, Sistemas Digitales, Robótica, Base de Datos y Desarrollo de Soluciones Informáticas.</p>
+
+
+        <ul class="list-grid">
+          <li>
+            <h4>Programación</h4>
+            <p>Lenguajes: Python, JavaScript. Enfoque práctico y proyectos.</p>
+          </li>
+          <li>
+            <h4>Redes y Comunicaciones</h4>
+            <p>Conceptos de LAN/WAN, topologías y configuración básica.</p>
+          </li>
+          <li>
+            <h4>Robótica</h4>
+            <p>Proyectos con microcontroladores y diseño de sistemas mecatrónicos.</p>
+          </li>
+          <li>
+            <h4>Desarrollo de interfaces</h4>
+            <p>UX/UI y diseño de aplicaciones web y móviles.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="contacto" class="section contact">
+      <div class="container">
+        <h3>Contacto</h3>
+        <p>Completá el formulario y te responderemos a la brevedad.</p>
+
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn">Enviar</button>
+            <button type="button" id="btn-reset" class="btn ghost">Limpiar</button>
+          </div>
+          <div id="form-status" aria-live="polite"></div>
+        </form>
+
+
+        <div class="contact-info">
+          <p><strong>Teléfono:</strong> (0351) 000-0000</p>
+          <p><strong>Email:</strong> info@sanisidro.edu.ar</p>
+          <p><strong>Dirección:</strong> Av. Ejemplo 123, Córdoba</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Colegio San Isidro — Todos los derechos reservados.</p>
+      <nav class="social">
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </nav>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
